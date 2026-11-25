@@ -205,6 +205,8 @@ footer p{max-width:none;margin-bottom:10px}
 .rv{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
 .rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.hero .bg{animation:none;transform:none}html{scroll-behavior:auto}}
+.walknote{font-size:.8rem;color:var(--soft);margin-top:.7rem}
+.walk{gap:8px}.walk li{padding:11px 16px;justify-content:space-between}.walk b{font-size:17px}.walk span{text-align:right;font-size:.9rem;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -225,7 +227,7 @@ footer p{max-width:none;margin-bottom:10px}
     <span class="badge" id="badge"><i></i><span id="badgeText">For Sale</span></span>
     <p class="eyebrow">Bend, Oregon &middot; West Side</p>
     <h1>936-946 NW<br>Delaware Ave</h1>
-    <p class="sub">Four units on a quarter acre of RM zoned ground, one block from Jackson's Corner and about half a mile from Drake Park and downtown.</p>
+    <p class="sub">Four units on a quarter acre of RM zoned ground, a six minute walk to the Deschutes River and one block from Jackson's Corner.</p>
     <div class="priceline" id="priceline"><span class="price" id="price"></span><small>Offered at</small></div>
     <div class="cta">
       <a class="btn p" id="heroCta" href="sms:+15414105967?&body=Hi%20Nick%2C%20I%27m%20interested%20in%20NW%20Delaware.">Text Nick</a>
@@ -293,13 +295,20 @@ footer p{max-width:none;margin-bottom:10px}
     <div class="split rev">
       <div class="rv">
         <p class="eyebrow c">The location</p>
-        <h2 class="sh">One of the most loved pockets in Bend</h2>
-        <p class="lede">Walk to coffee and dinner, the river trail, Drake Park and downtown. It shows the minute you step onto the street.</p>
+        <h2 class="sh">Six minutes to the river</h2>
+        <p class="lede">Walk out the front door and the river is about 600 steps away at Miller's Landing. Jackson's Corner is at the end of the block. The Old Mill, the Box Factory, McKay Park and summer concerts at Hayden Homes Amphitheater are all an easy walk, and downtown and Drake Park are just as close the other way.</p>
         <ul class="walk">
-          <li><b>Jackson's Corner</b><span>One block</span></li>
-          <li><b>Drake Park</b><span>About half a mile</span></li>
-          <li><b>Downtown Bend</b><span>About half a mile</span></li>
+          <li><b>Jackson's Corner</b><span>1 min</span></li>
+          <li><b>Miller's Landing and the Deschutes River</b><span>6 min &middot; 0.3 mi</span></li>
+          <li><b>McKay Park</b><span>9 min &middot; 0.4 mi</span></li>
+          <li><b>The Box Factory</b><span>10 min &middot; 0.4 mi</span></li>
+          <li><b>Bend Whitewater Park</b><span>10 min &middot; 0.5 mi</span></li>
+          <li><b>The Old Mill District</b><span>12 min &middot; 0.5 mi on the river trail</span></li>
+          <li><b>Downtown Bend</b><span>12 min &middot; 0.6 mi</span></li>
+          <li><b>Drake Park</b><span>12 min &middot; 0.6 mi</span></li>
+          <li><b>Hayden Homes Amphitheater</b><span>13 min &middot; 0.6 mi</span></li>
         </ul>
+        <p class="walknote">Walking times from 936 NW Delaware, per Google Maps.</p>
       </div>
       <div class="media rv"><img src="img/30.jpg" alt="Property photo" loading="lazy"></div>
     </div>
