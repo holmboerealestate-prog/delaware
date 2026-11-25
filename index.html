@@ -181,6 +181,8 @@ td.n,th.n{text-align:right;white-space:nowrap}
 .outro{width:100%;max-width:440px;aspect-ratio:4/5;margin:0 auto;border-radius:18px;overflow:hidden;background:#000}
 .outro video{width:100%;height:100%;object-fit:cover}
 .who{margin-top:30px;padding-top:26px;border-top:1px solid rgba(255,255,255,.14);line-height:1.8;font-size:15.5px;color:rgba(255,255,255,.82)}
+.who{display:grid;gap:22px}
+@media(min-width:560px){.who{grid-template-columns:1fr 1fr}}
 .who b{display:block;font-family:var(--serif);font-weight:300;font-size:30px;color:#fff;line-height:1.2;margin-bottom:4px}
 .who a{text-decoration:none;border-bottom:1px solid rgba(255,255,255,.3)}
 .logos{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:28px}
@@ -209,11 +211,11 @@ footer p{max-width:none;margin-bottom:10px}
 
 <nav class="nav" id="nav" aria-label="Brand">
   <div class="wrap">
-    <a class="hh" href="#top" aria-label="Holmboe Homes">
+    <a href="#top" aria-label="Back to top"><img class="kw" src="brand/kw.png" alt="Keller Williams Realty Central Oregon"></a>
+    <span class="hh" aria-label="Holmboe Homes">
       <img class="m" src="brand/mark.svg" alt="">
       <img class="w" src="brand/word.svg" alt="Holmboe Homes">
-    </a>
-    <img class="kw" src="brand/kw.png" alt="Keller Williams Realty Central Oregon">
+    </span>
   </div>
 </nav>
 
@@ -357,11 +359,20 @@ footer p{max-width:none;margin-bottom:10px}
         <a class="btn g" href="mailto:holmboerealestate@gmail.com?subject=936-946%20NW%20Delaware%20Ave">Email</a>
       </div>
       <div class="who">
-        <b>Nick Holmboe</b>
-        Broker, Holmboe Homes<br>
-        Keller Williams Realty Central Oregon<br>
-        <a href="tel:+15414105967">541-410-5967</a> &middot; <a href="mailto:holmboerealestate@gmail.com">holmboerealestate@gmail.com</a><br>
-        Co-listed with Shelly Hummel
+        <div>
+          <b>Nick Holmboe</b>
+          Broker, Holmboe Homes<br>
+          Keller Williams Realty Central Oregon<br>
+          <a href="tel:+15414105967">541-410-5967</a><br>
+          <a href="mailto:holmboerealestate@gmail.com">holmboerealestate@gmail.com</a>
+        </div>
+        <div>
+          <b>Shelly Hummel</b>
+          Co-listing agent<br>
+          Keller Williams Realty Central Oregon<br>
+          <a href="tel:+15414808523">541-480-8523</a><br>
+          <a href="mailto:shelly@sellbend.com">shelly@sellbend.com</a>
+        </div>
       </div>
       <div class="logos">
         <span class="hh"><img class="m" src="brand/mark.svg" alt=""><img class="w" src="brand/word.svg" alt="Holmboe Homes"></span>
